@@ -5,8 +5,9 @@
 <title>Untitled Document</title>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<script src="../phonegap.js"></script>
-<link rel="stylesheet" href='../newcss.css' />    
+
+<link rel="stylesheet" href='../newcss.css' /> 
+<link rel="stylesheet" href='../make.css' />     
 
 
         
@@ -23,13 +24,13 @@
                       <div class = "nav_pill_wrapper">
                           <ul class="nav nav-pills">
                               <li class="active"><a href="#">Find</a></li>
-                              <li><a href="make.html">Make</a></li>
+                              <li><a href="#">Make</a></li>
                           </ul>
                       </div>
                       
                   </div>
                   <div class = "header_inner_right">
-                      <div class="dropdown profile_dropdown">
+                      <div class="dropdown">
                           <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"> Notifications (2) <span class="caret"></span></button>
                           <ul class="dropdown-menu drop_down_menu_addition" role="menu" aria-labelledby="dropdownMenu1">
                               <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
@@ -45,90 +46,58 @@
               </div>
           </div>
         </div>
-  	<div class="main-body">
-      <div class="search-bar">
-        <div class="col-xs-12 ">
-          <div class="input-group">
-            <input type="text" class="form-control">
-            <span class="input-group-btn">
-              <button class="btn btn-default" type="button">Go</button>
-            </span>
-          </div><!-- /input-group -->
-        </div> <!-- col-xs-12 -->       
+  	<div class="main_body">
+		<div class="make_area">
+          <div class="col-xs-12">
+            <form role="form">
+    <div class="col-xs-12">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
       </div>
-      
-    	<div class="current">
-        	<div class="col-xs-12">
-              <table class="table">
-                  <caption> Current </caption>
-                  <thead>
-                      <tr>
-                          <th> #</th>
-                          <th> Topic </th>
-                          <th> Building </th>
-                          <th> Room </th>
-                          <th> Progress </th>
-                          <th> Ammentities </th>
-                      </tr>
-                  </thead>
-                  <tbody
-                      <tr> 
-                          <td> 1 </td>
-                          <td> 6.01 Pset </td>
-                          <td> Student Center </td>
-                          <td> 5th Floor Athena </td>
-                          <td> Halfway done ish </td>
-                      </tr> 
-                      <tr> 
-                          <td> 2 </td>
-                          <td> 8.01 Pset </td>
-                          <td> Student Center </td>
-                          <td> 5th Floor Athena </td>
-                          <td> Halfway done ish </td>
-                          <td> 8.012 TA </td>
-                      </tr> 
-                      <tr> 
-                          <td> 3 </td>
-                          <td> 8.02 lab  </td>
-                          <td> Stata </td>
-                          <td> 32-123 </td>
-                          <td> Almost done </td>
-                      </tr> 
-                      <tr> 
-                          <td> 4 </td>
-                          <td> JavaScript Competition </td>
-                          <td> Student Center </td>
-                          <td> 5th Floor Athena </td>
-                          <td> Halfway done ish </td>
-                          
-                      </tr> 
-                      <tr> 
-                          <td> 5 </td>
-                          <td> 7.03 Pset </td>
-                          <td> Bldg 66 </td>
-                          <td> Room 101 </td>
-                          <td> Halfway done ish </td>
-                      </tr> 
-                      <tr> 
-                          <td> 6 </td>
-                          <td> 14.01 Pset </td>
-                          <td> Next House </td>
-                          <td> Lobby </td>
-                          <td> Halfway done ish </td>
-                          <td> Apples </td>
-                      </tr> 
-                      <tr> 
-                          <td> 7 </td>
-                          <td> Chess </td>
-                          <td> Lobby 7 </td>
-                          <td> </td>
-                          <td> Until 5pm </td>
-                          <td> Cookies, Drinks </td>
-                      </tr>
-                  </tbody>
-              </table>
-            </div>
-        </div><!-- current -->
+    </div>
+    <div class="col-xs-12">
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+    </div>
+     <div class="col-xs-12">
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+    </div>
+     <div class="col-xs-12">
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+    </div>
+     <div class="col-xs-12">
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+    </div>
+     
+     <div class="col-xs-12">
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+    </div>
+    <div class="col-xs-12 center text-center submit_btn">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+            </form>
+          </div>
+         
+    
+    
+ 
+      </div><!-- 2nd column -->
+        </div> <!-- make area -->
     </div>
    		 	
 
