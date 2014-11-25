@@ -252,6 +252,10 @@ background-color:#205081;
 
 /* Main Page CSS*/
 
+.main_body {
+margin-top: 70px;
+}
+
 .search-bar {
 margin-top: 70px;
 }
@@ -259,4 +263,14 @@ margin-top: 70px;
 body .title {
 font-size: 18px ;
 font-weight: 600; 
+}
+
+.work_progress {
+font-style: none;
+float: left;
+}
+
+.col-xs-6, .col-xs-8,.col-xs-10 {
+margin: 0px;
+
 }
